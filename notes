@@ -1,0 +1,29 @@
+1. download the arm cross compiler from here
+
+https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+
+2. extract
+
+3. open a command prompt
+
+4. 
+export PATH=$PATH: path to bin directory of compiler
+
+for example
+
+export PATH=$PATH:/home/R1000101/Downloads/gcc-arm-none-eabi-6-2017-q2-update/bin
+
+5. download all the the whole repository at https://github.com/oaktree11/embedded
+
+6.
+cd to add directory
+
+7. run the mk script with
+
+./mk
+
+8. enter the qemu commands in qemu-cmds
+
+
+
+
