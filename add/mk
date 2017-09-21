@@ -1,0 +1,13 @@
+ARM=arm-none-eabi
+QEMU=qemu-system-arm
+
+$ARM-as -o ts.o ts.s
+
+$ARM-ld -T t.ld -o t.elf ts.o
+
+$ARM-nm t.elf
+
+$ARM-objcopy -O binary t.elf t.bin
+
+
+$QEMU -M versatilepb -kernel t.bin -nographic -serial /dev/null
