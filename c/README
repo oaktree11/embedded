@@ -1,0 +1,9 @@
+use 
+arm-none-eabi-gcc -c first.c
+
+to generate first.o
+
+then
+arm-none-eabi-objdump -S first.o
+
+which will disassemble the object file
