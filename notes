@@ -22,7 +22,10 @@ cd to add directory
 
 ./mk
 
-8. enter the qemu commands in qemu-cmds
+8. You may have to do
+chmod +x mk
+
+9. enter the qemu commands in qemu-cmds
 
 
 
