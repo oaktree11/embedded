@@ -18,13 +18,14 @@ export PATH=$PATH:/home/R1000101/Downloads/gcc-arm-none-eabi-6-2017-q2-update/bi
 6.
 cd to add directory
 
-7. run the mk script with
+7. 
+chmod +x mk
+
+8. run the mk script with
 
 ./mk
 
-8. You may have to do
-chmod +x mk
-
+If QEMU starts ok.
 9. enter the qemu commands in qemu-cmds
 
 
